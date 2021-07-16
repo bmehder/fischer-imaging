@@ -69,7 +69,7 @@
     background: darkorange;
     color: #001515;
     text-align: center;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid #001515;
   }
   .sticky {
     position: fixed;
