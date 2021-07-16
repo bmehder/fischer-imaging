@@ -34,4 +34,10 @@
     background: #227ad2;
     color: white;
   }
+  @media screen and (max-width: 640px) {
+    form,
+    p {
+      width: 100%;
+    }
+  }
 </style>

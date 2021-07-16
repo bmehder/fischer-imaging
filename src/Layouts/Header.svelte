@@ -44,6 +44,13 @@
       </div>
     </Flex>
     {#if mobile}
+      <a href="/"
+        ><img
+          class="logo"
+          src="/images/logo-fischer-imaging.png"
+          alt="Fischer Imaging Logo"
+        /></a
+      >
       <ul class:uppercase class="mobile">
         <li>
           <a on:click={showMobile} href="/">Home</a>
@@ -79,9 +86,6 @@
     display: block;
     width: 300px;
     height: auto;
-  }
-  .logo-mobile {
-    width: 80%;
   }
   nav {
     display: flex;
@@ -125,6 +129,10 @@
   nav div {
     display: flex;
     justify-content: space-between;
+  }
+  .logo-mobile {
+    display: block;
+    width: 120px;
   }
   ul.mobile li {
     padding: 1em 0;
