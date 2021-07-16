@@ -37,7 +37,10 @@
     margin: 1em auto;
     text-align: center;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 640px) {
+    section {
+      padding: 1em 2em !important;
+    }
     h3 {
       font-size: 1.5em;
     }

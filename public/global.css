@@ -82,3 +82,9 @@ button:not(:disabled):active {
 button:focus {
   border-color: #666;
 }
+
+/* @media screen and (max-width: 640px) {
+  body {
+    padding: 1em;
+  }
+} */

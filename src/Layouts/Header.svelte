@@ -44,13 +44,6 @@
       </div>
     </Flex>
     {#if mobile}
-      <a href="/"
-        ><img
-          class="logo"
-          src="/images/logo-fischer-imaging.png"
-          alt="Fischer Imaging Logo"
-        /></a
-      >
       <ul class:uppercase class="mobile">
         <li>
           <a on:click={showMobile} href="/">Home</a>
@@ -70,7 +63,7 @@
 
 <style>
   header {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     padding: 3em 0;
     background: darkorange;

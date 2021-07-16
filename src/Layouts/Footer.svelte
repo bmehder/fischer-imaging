@@ -7,7 +7,7 @@
 
 <footer style="height:{height};background:{background};color:{color};">
   <div>
-    <Grid columns="1fr 1fr 2fr" gap="2em">
+    <Grid columns="1fr 1fr 1fr" gap="2em">
       <div>
         <div>
           <h4>Contact Information</h4>
@@ -88,6 +88,12 @@
   p {
     margin-top: 1em;
     text-align: center;
+  }
+  .badges {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
   }
   .badges img {
     max-width: 200px;

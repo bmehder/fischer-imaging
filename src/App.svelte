@@ -15,15 +15,15 @@
 <Header />
 <main>
   <Hero />
-  <Section padding="2em" background="#f1f1f1" title="About Us">
+  <Section padding="2em 0" background="#f1f1f1" title="About Us">
     <Grid columns="2fr 1fr" gap="4em">
       <About />
     </Grid>
   </Section>
-  <Section padding="2em" background="white" title="Any Questions?">
+  <Section padding="2em 0" background="white" title="Any Questions?">
     <Questions />
   </Section>
-  <Section padding="2em 2em 4em" background="#f1f1f1" title="Products">
+  <Section padding="2em 0 4em" background="#f1f1f1" title="Products">
     <Grid columns="2fr 1fr" gap="4em">
       <Products
         src="/images/products-1-fischer-imaging.jpg"
@@ -86,7 +86,7 @@
   <Section margin="4em 0" background="white" title="News & Events">
     <News />
   </Section>
-  <Section padding="2em 2em 4em" background="#f1f1f1" title="Contact Us">
+  <Section padding="2em 0 4em" background="#f1f1f1" title="Contact Us">
     <Contact />
   </Section>
 </main>
@@ -95,7 +95,7 @@
 <style>
   main {
     text-align: center;
-    padding: 195px 0 1em 0;
+    padding: 0;
     padding-bottom: 0;
     margin: 0 auto;
     font-size: 16px;
