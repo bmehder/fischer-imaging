@@ -1,7 +1,7 @@
 <div>
   <p>
-    If you have any questions related to any of our medical devices, then please
-    send us an email!
+    If you have questions related to any of our medical devices, then please
+    send us an email.
   </p>
   <p class="email">
     <a href="mailto:info@fischerimaging.com" target="_blank"
