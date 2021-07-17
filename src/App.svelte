@@ -15,7 +15,7 @@
 <Header />
 <main>
   <Hero />
-  <Section padding="2em 0" background="#f1f1f1" title="About Us">
+  <Section padding="2em 0 4em" background="#f1f1f1" title="About Us">
     <Grid columns="2fr 1fr" gap="4em">
       <About />
     </Grid>

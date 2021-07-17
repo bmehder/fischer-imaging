@@ -23,7 +23,7 @@
     transform: translateY(-50%);
     font-size: 1.25em;
     font-weight: bold;
-    text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
   }
   img {
     display: block;

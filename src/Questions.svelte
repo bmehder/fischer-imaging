@@ -14,7 +14,8 @@
 <style>
   div {
     margin-bottom: 4em;
-    padding: 2em 2em 0;
+    padding: 2em 2em 0.5em;
+    background: #f1f1f1;
     border: 1px solid #f1f1f1;
     border-radius: 1em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
