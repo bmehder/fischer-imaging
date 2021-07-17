@@ -18,13 +18,16 @@
   }
   div div {
     position: absolute;
-    top: 50%;
+    top: 42%;
     right: 10%;
     transform: translateY(-50%);
-    font-size: 1.5em;
-    color: #227ad2;
-    /* font-weight: bold; */
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    font-size: 1.4em;
+    font-size: 1.5vw;
+    color: #124477;
+    text-align: right;
+    font-weight: 500;
+    /* text-shadow: 1px 1px 5px rgba(255, 255, 255, 1),
+      -1px -1px 5px rgba(255, 255, 255, 1); */
     letter-spacing: 2px;
   }
 
@@ -36,11 +39,15 @@
     display: block;
     width: 100%;
     object-fit: cover;
+    /* margin-left: -150px; */
   }
 
   @media screen and (max-width: 640px) {
     div div {
       display: none;
     }
+    /* img {
+      margin-left: 0;
+    } */
   }
 </style>
