@@ -1,5 +1,5 @@
 <div>
-  <h3><span>Fischer Imaging.</span> A new company…</h3>
+  <h3>Fischer Imaging. A new company…</h3>
   <p>
     Founded in 2016, the new Fischer Imaging is focused on improving outcomes
     for cancer patients with advanced imaging. Our proprietary technology
@@ -33,9 +33,6 @@
     margin: 2em auto;
     border-radius: 4px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.24);
-  }
-  span {
-    color: #227ad2;
   }
   @media screen and (max-width: 640px) {
     img {
