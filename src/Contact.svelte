@@ -38,6 +38,10 @@
   button {
     background: #227ad2;
     color: white;
+    transition: all 300ms;
+  }
+  button:hover {
+    background: hsl(210, 72%, 38%);
   }
   @media screen and (max-width: 640px) {
     form,
