@@ -1,10 +1,6 @@
-<script>
-  import { fade } from 'svelte/transition'
-</script>
-
 <div>
   <img class="hero" src="/images/slider-fischer-imaging.jpg" alt="Hero" />
-  <div in:fade={{ delay: 1000, duration: 300 }}>
+  <div>
     <p>Radiation doses equivalent to current FFDM systems</p>
 
     <p>Elimination of breast compression during screening</p>

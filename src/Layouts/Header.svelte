@@ -1,5 +1,7 @@
 <script>
+  import { slide } from 'svelte/transition'
   import Flex from './Flex.svelte'
+
   export let sticky = false
   export let uppercase = false
   export let background = 'white'
@@ -44,7 +46,7 @@
       </div>
     </Flex>
     {#if mobile}
-      <ul class:uppercase class="mobile">
+      <ul class="mobile" class:uppercase transition:slide>
         <li>
           <a on:click={showMobile} href="/">Home</a>
         </li>
