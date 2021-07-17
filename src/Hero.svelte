@@ -23,7 +23,7 @@
     transform: translateY(-50%);
     font-size: 1.4em;
     font-size: 1.5vw;
-    color: #124477;
+    color: #0e345a;
     text-align: right;
     font-weight: 500;
     /* text-shadow: 1px 1px 5px rgba(255, 255, 255, 1),
