@@ -21,10 +21,17 @@
     top: 50%;
     right: 10%;
     transform: translateY(-50%);
-    font-size: 1.25em;
-    font-weight: bold;
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+    font-size: 1.5em;
+    color: #227ad2;
+    /* font-weight: bold; */
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
   }
+
+  p {
+    line-height: initial;
+  }
+
   img {
     display: block;
     width: 100%;
