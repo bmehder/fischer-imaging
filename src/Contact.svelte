@@ -39,6 +39,7 @@
   button {
     background: #227ad2;
     color: white;
+    font-weight: bold;
     transition: all 300ms;
   }
   button:hover {
