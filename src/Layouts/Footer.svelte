@@ -115,6 +115,7 @@
     background: white;
   }
   .bottom {
+    position: relative;
     max-width: 100%;
     background-color: #323942;
   }
