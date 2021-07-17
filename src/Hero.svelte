@@ -1,7 +1,7 @@
 <div>
   <img class="hero" src="/images/slider-fischer-imaging.jpg" alt="Hero" />
   <div>
-    <p>Radiation doses equivalent to those in current FFDM systems</p>
+    <p>Radiation doses equivalent to current FFDM systems</p>
 
     <p>Elimination of breast compression during screening</p>
 

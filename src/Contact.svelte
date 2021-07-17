@@ -1,14 +1,19 @@
+<script>
+  const form_id = ''
+</script>
+
 <div>
   <p>
     We are available by e-mail. You can also use our quick contact form to ask a
     question about our services that we regularly provide.
   </p>
-  <form action="">
-    <input type="text" placeholder="Your Name" />
-    <input type="email" placeholder="Your Email" />
-    <input type="phone" placeholder="Your Phone" />
-    <textarea placeholder="Your Message" />
-    <button>Send Message</button>
+  <form action="https://formspree.io/f/{form_id}">
+    <input name="name" type="text" placeholder="Your Name" required />
+    <input name="_replyto" type="email" placeholder="Your Email" required />
+    <input name="phone" type="phone" placeholder="Your Phone" />
+    <input name="subject" type="text" placeholder="Your Subject" required />
+    <textarea name="message" placeholder="Your Message" required />
+    <button type="submit">Send Message</button>
   </form>
 </div>
 

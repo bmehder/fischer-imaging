@@ -84,7 +84,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1020px;
+    max-width: 1180px;
     margin: 0 auto;
     padding: 0 1em;
   }
@@ -103,6 +103,7 @@
   nav ul li a {
     height: auto;
     color: #001515;
+    font-size: 1.2em;
     text-decoration: none;
   }
   nav ul li a:hover {
@@ -141,7 +142,7 @@
   nav.mobile {
     display: none;
   }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 900px) {
     header {
       padding: 1em;
     }
