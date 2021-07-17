@@ -14,17 +14,20 @@
         <div>
           <h4>Contact Information</h4>
           <p>
+            <i class="fas fa-envelope" />
             <a href="mailto:info@fischerimaging.com" target="_blank"
               >info@fischerimaging.com</a
             >
           </p>
           <p>
+            <i class="fas fa-address-card" />
             <a href="https://goo.gl/maps/mrCeZyKE76Ao5aSe9" target="_blank"
               >600 17th Street, Suite 2800<br />
               South, Denver CO 80202, USA</a
             >
           </p>
           <p>
+            <i class="fab fa-linkedin" />
             <a
               href="https://www.linkedin.com/company/fischer-imaging"
               target="_blank">Linkedin Profile</a
