@@ -4,9 +4,8 @@
     send us an email!
   </p>
   <p class="email">
-    <i class="fas fa-2x fa-envelope" /><a
-      href="mailto:info@fischerimaging.com"
-      target="_blank">info@fischerimaging.com</a
+    <a href="mailto:info@fischerimaging.com" target="_blank"
+      ><i class="fas fa-envelope" />&nbsp; info@fischerimaging.com</a
     >
   </p>
 </div>
@@ -27,6 +26,14 @@
     text-align: center;
   }
   a {
-    padding-left: 1em;
+    background: #227ad2;
+    color: white;
+    padding: 1em 2em;
+    border-radius: 4px;
+    transition: all 300ms;
+  }
+  a:hover {
+    background: hsl(210, 72%, 38%);
+    text-decoration: none;
   }
 </style>
