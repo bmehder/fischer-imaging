@@ -31,6 +31,7 @@
     width: 100%;
     margin: 1em auto;
     padding: 1em;
+    border-radius: 4px;
   }
   textarea {
     min-height: 200px;
