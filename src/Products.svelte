@@ -3,7 +3,7 @@
   export let alt = ''
 </script>
 
-<div id="products">
+<div>
   <slot name="title" />
   <slot />
 </div>

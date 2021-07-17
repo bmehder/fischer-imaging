@@ -1,4 +1,4 @@
-<div id="about-us">
+<div>
   <h3>Fischer Imaging. A new company…</h3>
   <p>
     Founded in 2016, the new Fischer Imaging is focused on improving outcomes

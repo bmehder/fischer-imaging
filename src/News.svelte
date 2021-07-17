@@ -2,7 +2,7 @@
   import Grid from './Layouts/Grid.svelte'
 </script>
 
-<div id="news-events">
+<div>
   <Grid columns="1fr 1fr" gap="2em">
     <aside>
       <p>
@@ -45,6 +45,7 @@
     background: #f1f1f1;
     border: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+    transition: all 300ms;
   }
   aside:hover {
     background-color: #227ad2;

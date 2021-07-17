@@ -32,10 +32,11 @@
     /* padding: 2em; */
   }
   h3 {
-    font-size: 3em;
-    line-height: 1em;
     margin: 1em auto;
     text-align: center;
+    font-size: 2.5em;
+    line-height: 1em;
+    color: #227ad2;
   }
   @media screen and (max-width: 640px) {
     section {

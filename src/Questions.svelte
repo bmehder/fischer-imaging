@@ -1,6 +1,6 @@
 <div>
   <p>
-    If you have any questions related to any of our medical devices then please
+    If you have any questions related to any of our medical devices, then please
     send us an email!
   </p>
   <p class="email">

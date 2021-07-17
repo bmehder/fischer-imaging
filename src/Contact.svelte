@@ -1,4 +1,4 @@
-<div id="contact-us">
+<div>
   <p>
     We are available by e-mail. You can also use our quick contact form to ask a
     question about our services that we regularly provide.

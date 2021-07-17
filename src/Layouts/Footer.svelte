@@ -3,6 +3,8 @@
   export let background = 'rgba(82, 98, 125, 0.8)'
   export let color = 'white'
   export let height = ''
+
+  const date = new Date().getFullYear()
 </script>
 
 <footer style="height:{height};background:{background};color:{color};">
@@ -11,12 +13,23 @@
       <div>
         <div>
           <h4>Contact Information</h4>
-          <p>info@fischerimaging.com</p>
           <p>
-            600 17th Street, Suite 2800<br />
-            South, Denver CO 80202, USA
+            <a href="mailto:info@fischerimaging.com" target="_blank"
+              >info@fischerimaging.com</a
+            >
           </p>
-          <p>Linkedin Profile</p>
+          <p>
+            <a href="https://goo.gl/maps/mrCeZyKE76Ao5aSe9" target="_blank"
+              >600 17th Street, Suite 2800<br />
+              South, Denver CO 80202, USA</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://www.linkedin.com/company/fischer-imaging"
+              target="_blank">Linkedin Profile</a
+            >
+          </p>
         </div>
       </div>
       <div>
@@ -53,7 +66,7 @@
   <slot />
 </footer>
 <div class="bottom">
-  <p>© 2021 Fischer Imaging. All rights reserved.</p>
+  <p>© {date} Fischer Imaging. All rights reserved.</p>
 </div>
 
 <style>
@@ -75,11 +88,11 @@
   a {
     color: white;
   }
+  p {
+    line-height: 1.5;
+  }
   footer div div {
     margin-top: 2em;
-  }
-  a p {
-    line-height: 1.2em;
   }
   footer div div p,
   h4 {
