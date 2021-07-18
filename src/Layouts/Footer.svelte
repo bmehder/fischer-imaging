@@ -69,7 +69,10 @@
   <slot />
 </footer>
 <div class="bottom">
-  <p>© {date} Fischer Imaging. All rights reserved.</p>
+  <div>
+    <p>© {date} Fischer Imaging. All rights reserved.</p>
+    <p><a href="#/">Back To Top</a></p>
+  </div>
 </div>
 
 <style>
@@ -122,8 +125,15 @@
     max-width: 100%;
     background-color: #323942;
   }
+  .bottom div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+  }
   .bottom p {
     margin-top: 0;
+    margin-bottom: 0;
     padding: 2em;
     color: white;
   }
