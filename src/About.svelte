@@ -7,7 +7,7 @@
     half the x-ray dose and removes the need for painful breast compression.
   </p>
 
-  <h3>With an impressive past…</h3>
+  <h3>With an impressive past.</h3>
   <p>
     Our company succeeds Fischer Imaging Corp., with roots going back to 1910
     when H.G. Fischer, the oldest manufacturer of X-ray imaging devices in the
