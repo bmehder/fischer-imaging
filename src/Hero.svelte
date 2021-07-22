@@ -1,14 +1,33 @@
+<script>
+  import { onMount } from 'svelte'
+  import { fly } from 'svelte/transition'
+
+  let onLoad = false
+
+  onMount(() => (onLoad = true))
+</script>
+
 <div>
   <img class="hero" src="/images/slider-fischer-imaging.jpg" alt="Hero" />
-  <div>
-    <p>Radiation doses equivalent to current FFDM systems</p>
+  {#if onLoad}
+    <div>
+      <p in:fly={{ delay: 1000, duration: 600, x: 500, opacity: 0 }}>
+        Radiation doses equivalent to current FFDM systems
+      </p>
 
-    <p>Elimination of breast compression during screening</p>
+      <p in:fly={{ delay: 2500, duration: 600, x: 500, opacity: 0 }}>
+        Elimination of breast compression during screening
+      </p>
 
-    <p>True 3D Computed Tomography imaging</p>
+      <p in:fly={{ delay: 4000, duration: 600, x: 500, opacity: 0 }}>
+        True 3D Computed Tomography imaging
+      </p>
 
-    <p>25 micron image resolution</p>
-  </div>
+      <p in:fly={{ delay: 5500, duration: 600, x: 500, opacity: 0 }}>
+        25 micron image resolution
+      </p>
+    </div>
+  {/if}
 </div>
 
 <style>
