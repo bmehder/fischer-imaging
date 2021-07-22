@@ -16,14 +16,14 @@
 <main>
   <Hero />
   <div id="about-us">
-    <Section padding="2em 2em 4em" background="#f1f1f1" title="About Us">
+    <Section padding="2em 2em 0" background="white" title="About Us">
       <Grid columns="2fr 1fr" gap="4em">
         <About />
       </Grid>
     </Section>
   </div>
 
-  <Section padding="2em" background="white" title="Any Questions?">
+  <Section padding="0 2em 2em" background="white" title="Any Questions?">
     <Questions />
   </Section>
 

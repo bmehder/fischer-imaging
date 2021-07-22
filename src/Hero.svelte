@@ -1,13 +1,11 @@
 <script>
   import { onMount } from 'svelte'
   import { fly } from 'svelte/transition'
-
   let onLoad = false
-
   onMount(() => (onLoad = true))
 </script>
 
-<div>
+<section>
   <img class="hero" src="/images/slider-fischer-imaging.jpg" alt="Hero" />
   {#if onLoad}
     <div>
@@ -28,45 +26,37 @@
       </p>
     </div>
   {/if}
-</div>
+</section>
 
 <style>
-  div {
+  section {
     position: relative;
     text-align: left;
+    padding-top: 50%;
   }
-  div div {
+  div {
     position: absolute;
     top: 42%;
     right: 10%;
-    transform: translateY(-50%);
-    font-size: 1.4em;
     font-size: 1.5vw;
     color: #0e345a;
     text-align: right;
     font-weight: 500;
-    /* text-shadow: 1px 1px 5px rgba(255, 255, 255, 1),
-      -1px -1px 5px rgba(255, 255, 255, 1); */
     letter-spacing: 2px;
   }
-
   p {
     line-height: initial;
   }
-
   img {
     display: block;
+    position: absolute;
+    top: 0px;
     width: 100%;
-    object-fit: cover;
-    /* margin-left: -150px; */
+    height: 100%;
   }
-
   @media screen and (max-width: 640px) {
-    div div {
+    section div {
       display: none;
     }
-    /* img {
-      margin-left: 0;
-    } */
   }
 </style>
