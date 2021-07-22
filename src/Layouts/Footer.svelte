@@ -5,6 +5,11 @@
   export let height = ''
 
   const date = new Date().getFullYear()
+
+  const scrollToTop = () => {
+    document.body.scrollTop = 0 // For Safari
+    document.documentElement.scrollTop = 0 // For Chrome, Firefox, IE and Opera
+  }
 </script>
 
 <footer style="height:{height};background:{background};color:{color};">
@@ -71,7 +76,7 @@
 <div class="bottom">
   <div>
     <p>© {date} Fischer Imaging. All rights reserved.</p>
-    <p><a href="#/">Back To Top</a></p>
+    <p><a href="/" on:click|preventDefault={scrollToTop}>Back To Top</a></p>
   </div>
 </div>
 

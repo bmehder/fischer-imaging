@@ -13,7 +13,7 @@
   }
 </script>
 
-<header id="/" class:sticky style="background:{background};color:{color};">
+<header class:sticky style="background:{background};color:{color};">
   <nav class="main">
     <a href="/"
       ><img

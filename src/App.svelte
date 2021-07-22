@@ -43,6 +43,13 @@
             modalities in the same patient encounter and configuration for
             improved and efficient breast cancer screening and diagnosis.
           </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi
+            veritatis repellat sapiente dolores illum quod et ullam rem alias ut
+            explicabo soluta odio, rerum maxime? Sit rem asperiores magni
+            voluptas quaerat officiis sint libero, deserunt, reiciendis
+            inventore ut. Vel aliquid quam dolore reprehenderit quae?
+          </p>
         </Products>
         <Products
           src="/images/products-2-fischer-imaging.jpg"
