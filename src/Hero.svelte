@@ -1,7 +1,9 @@
 <script>
   import { onMount } from 'svelte'
   import { fly } from 'svelte/transition'
+
   let onLoad = false
+
   onMount(() => (onLoad = true))
 </script>
 
@@ -44,9 +46,9 @@
     font-weight: 500;
     letter-spacing: 2px;
   }
-  p {
+  /* p {
     line-height: initial;
-  }
+  } */
   img {
     display: block;
     position: absolute;
